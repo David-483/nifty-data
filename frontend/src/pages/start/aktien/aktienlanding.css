@@ -1,0 +1,83 @@
+.aktienLandingBody{
+    width: 100%;
+
+}
+
+.FinderBody{
+    width:90%;
+    margin: auto;
+    margin-top: 50px;
+    display:flex;
+    justify-content: space-around;
+    gap:50px;    
+    flex-wrap : wrap;
+    padding-bottom:50px;
+}
+
+.FinderBox{
+    width:200px;
+    margin: auto;
+    border-color: white;
+    border-radius: 14px;
+    border: 0.25px;
+    border: outset 1px;
+    padding: 20px;
+    box-shadow: 5px 6px 10px rgba(0,0,0,0.2);
+    transition: ease-in-out 0.2s;
+    cursor: pointer;
+}
+
+  
+.FinderBox:hover{
+    transform: scale(1.02);
+    transition: ease-in-out 0.2s;
+  }
+
+.FinderBoxLine{
+    border-bottom: solid 1px white;
+    margin-bottom: 5px;
+}
+
+.FinderLine{
+    border-bottom: solid 1px white;
+    margin-bottom: 5px;
+    width:90%;
+    margin: auto;
+}
+
+.finderTopLine{
+    color:white;
+    font-size: calc(8px + 0.5vw);
+    font-weight: 900;
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+
+@media screen and (max-width: 700px) {
+    .finderTopLine {
+        color: white;
+        font-size: calc(18px + 0.5vw);
+        font-weight: 900;
+        margin-bottom: 10px;
+        margin-top: 0px;
+    }
+
+    .FinderBox {
+    width: 90% !important
+    }
+}
+
+.finderTop{
+    display:flex;
+    justify-content: flex-start;
+    color:white;
+    font-size: calc(20px + 0.5vw);
+    font-weight: 900;
+    width:90%;
+    margin: auto;
+    margin-top:50px;
+}
+
+img{
+    border-radius: 2px;
+}

@@ -1,0 +1,252 @@
+/* Ticker Styles */
+.ticker-container {
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.6);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 1rem;
+    color:white;
+}
+
+.ticker-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.ticker {
+    display: flex;
+    animation: ticker linear infinite;
+    white-space: nowrap;
+}
+
+@keyframes ticker {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.ticker-item {
+    display: inline-block;
+    padding: 0 2rem;
+    font-size: 1rem;
+}
+
+.name {
+    font-weight: bold;
+    margin-right: 1rem;
+}
+
+.symbol {
+    color: grey;
+    margin-right: 1rem;
+    font-size: 0.8rem;
+}
+
+.price {
+    margin-right: 1rem;
+    color: rgb(255, 255, 255);
+}
+
+.change {
+    margin-left: 0.5rem;
+}
+
+.change.positive {
+    color: green;
+}
+
+.change.negative {
+    color: red;
+}
+
+.volume {
+    margin-right: 1rem;
+}
+
+/* Filter Buttons */
+.filter-buttons {
+    display: flex;
+    margin: 1rem 0;
+}
+
+.filter-buttons button {
+    border: none;
+    background-color: #007bff00;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 4px;
+}
+
+.filter-buttons button:hover {
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+/* Market Table */
+.market-table-container {
+    height: 500px;
+    overflow-y: scroll;
+    margin: auto;
+    margin-top: 2rem;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.market-table {
+    width: 100%;
+    max-height: 500px;
+    border-collapse: collapse;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    background-color: rgba(0, 0, 0, 0);
+    color: #ffffff;
+}
+
+.market-table th, .market-table td {
+    border-bottom: 1px solid #ffffff;
+    padding: 1rem;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0);
+    transition: 0.3s;
+}
+
+.market-table th {
+    background-color: rgba(0, 0, 0, 0);
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.market-table tr:nth-child(even) {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.market-table tr:hover {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+
+.market-table td.negative {
+    color: red;
+}
+
+.nameCell:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.market-table td.positive {
+    color: green;
+}
+
+/* Search Container */
+.search-container {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.search-container input {
+    padding: 0.5rem;
+    width: 20%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 15px;
+    margin-right: 0.5rem;
+    background-color: #0000007a;
+    color: #ffffff;
+}
+
+/* Modal Styles */
+.indexPopUpContainer {
+    position: relative; /* Hinzugefügt, um die absolute Positionierung des Close-Buttons zu ermöglichen */
+    right: auto;
+    bottom: auto;
+    background: rgba(0, 0, 0, 0.95);
+    padding: 20px;
+    width: 80%;
+    max-width: 1800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+.Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.closeButtonIndexPopUp {
+    position: absolute;
+    top: 10px; /* Abstand von oben */
+    right: 10px; /* Abstand von rechts */
+    background-color: transparent; /* Hintergrund transparent */
+    color: white;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    z-index: 1000; /* Sicherstellen, dass der Button oben liegt */
+}
+
+.closeButtonIndexPopUp:hover {
+    color: #007bff;
+}
+
+.chart-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.chart-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 0.9rem;
+    color: #ffffff;
+}
+
+.chart-info span {
+    margin: 0.2rem 0;
+}
+
+.time-range-buttons {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 2rem; /* Platz für den Close-Button schaffen */
+}
+
+.time-range-buttons button {
+    background-color: #007bff00;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.time-range-buttons button:hover {
+    background-color: #0056b3;
+}
+
+
+.homeTopContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    min-height: 600px;
+}
+
+.marketDataContainer{
+    width: 80%;
+}

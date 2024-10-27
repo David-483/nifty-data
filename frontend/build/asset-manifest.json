@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "./static/css/main.3a849874.css",
+    "main.js": "./static/js/main.d7b4c162.js",
+    "static/media/Instagram.svg": "./static/media/Instagram.31323e66c067ca9c6941dc334ae7c20b.svg",
+    "index.html": "./index.html",
+    "static/media/Twitter.svg": "./static/media/Twitter.2b91235831a3f20746b6db9e74bcf436.svg",
+    "main.3a849874.css.map": "./static/css/main.3a849874.css.map",
+    "main.d7b4c162.js.map": "./static/js/main.d7b4c162.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3a849874.css",
+    "static/js/main.d7b4c162.js"
+  ]
+}

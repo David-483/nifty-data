@@ -1,0 +1,21 @@
+a {
+    color: white !important;
+  }
+
+.tableContainer{
+    margin-bottom:200px;
+    margin:5%;  
+    padding-bottom:2%;
+    border: solid;
+    border-color: white;
+    border-radius: 14px;
+    border: 0.25px;
+    border-style: outset;
+    border-color: #ffffff; 
+    box-shadow: 0 70px 63px -60px #000;
+    transition: 0.3s ease;
+}
+
+.css-rlene5-MuiTableCell-root-MuiTablePagination-root{
+    border-bottom:none !important;
+}

@@ -1,0 +1,77 @@
+.marketBannerContainer {
+  width: 12%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 1s ease-in-out;
+}
+
+.page1, .page2, .page3, .page4, .page5 {
+  font-size: 30px; /* Schriftgröße, anpassbar */
+  font-weight: 700;
+  color: #ffffff; /* Textfarbe, anpassbar */
+  height: 100%;
+  width: 100%;
+  min-width: 300px;
+  border-radius: 15px;
+  padding: 10px;
+  transition: 3s;
+}
+
+.page1OutterContainer{
+  background-color: rgba(0, 255, 81, 0.5);
+  background-image: linear-gradient(to top, rgb(0, 0, 0), transparent);
+  height: 100%;
+  border-radius: 15px;
+}
+
+.page1 {
+  color: white;
+}
+
+
+.page2 {
+  color: white;
+}
+
+.page2OutterContainer{
+  background-color: rgba(255, 0, 0, 0.5);
+  background-image: linear-gradient(to top, rgb(0, 0, 0), transparent);
+  height: 100%;
+  border-radius: 15px;
+}
+
+.page3 {
+  color: white;
+}
+
+.page3OutterContainer{
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: linear-gradient(to top, rgb(0, 0, 0), transparent);
+  height: 100%;
+  border-radius: 15px;
+}
+
+.page4 {
+  color: white;
+}
+
+.page4OutterContainer {
+  background-color: rgba(41, 55, 213, 0.524);
+  background-image: linear-gradient(to top, rgb(0, 0, 0), transparent);
+  height: 100%;
+  border-radius: 15px;
+}
+
+.page5 {
+  color: white;
+}
+
+.page5OutterContainer {
+  background-color: rgba(239, 0, 211, 0.77);
+  background-image: linear-gradient(to top, rgb(0, 0, 0), transparent);
+  height: 100%;
+  border-radius: 15px;
+}
+
+

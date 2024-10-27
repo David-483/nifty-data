@@ -1,0 +1,7 @@
+# Don't watch our robots.txt, watch yours instead!
+
+User-agent: *
+Allow: /
+
+
+Sitemap: https://www.nifty-data.de/sitemap.xml

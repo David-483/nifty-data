@@ -1,0 +1,30 @@
+.FondsBody{
+    margin: auto;
+}
+
+.FondsTableContainer{
+    display:flex;
+}
+
+.ChartsRowContainer{
+    display:flex;   
+    justify-content: space-between;
+}
+
+.ChartsContainerFonds{
+    display: flex;
+    flex-direction: column;
+    width:48%;
+    font-size: 16px;
+    background: linear-gradient(20deg, rgba(255, 255, 255, 0.20), rgba(255,255,255,10%),  rgba(255,255,255,0%));
+    border: solid;
+    border-color: white;
+    border-radius: 14px;
+    border: 0.25px;
+    border-style: outset;
+    border-color: #ffffff;
+    padding: 20px;
+    cursor: default;
+    transition: 0.3s ease;
+    box-shadow: 0 70px 63px -60px #000;
+}

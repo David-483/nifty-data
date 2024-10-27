@@ -1,0 +1,106 @@
+a {
+    text-decoration: none;
+    color:black;
+}
+
+
+/* Responsive größer als 600px */
+
+@media (min-width: 600px) {
+
+    #basic-button-SignIn{
+        display:block;
+        }
+
+    #basic-button-Burgermenu{
+    display:none;
+    }
+
+    .AktienbarsHeadlineMobile{
+        display:none;
+    }
+
+    .MobileOpenerSublineText{
+        display:none;
+    }
+
+    .MobileOpenerImg{
+        display:none;
+    }
+
+    .MobileOpener{
+        display:none;
+    }
+
+    .AktienbarsHeadlineMobile2{
+        display:none;
+    }
+
+    .BurgerMenu{
+        display:none;
+    }
+    }
+
+/* Responsive kleiner als 600px */
+
+
+/* @media (max-width: 600px) {
+    .BurgerMenu{
+        position: relative;
+        text-align: right;
+        color:white;
+
+    }
+
+    #basic-button-SignIn {
+        display:none !important;
+    }
+
+
+    .start-page-aktienbars{
+        display:block;
+    }
+
+    .start-page-aktienbars-container-chart{
+        display:none;
+    }
+
+    .start-page-content-custom-header{
+        display:none;
+    }
+
+    .start-page-analysen-content-image{
+        height:70% !important; 
+        min-height:70% !important;
+    }
+    
+
+    .AktienbarsHeadlineMobile{
+
+        font-size:25px;
+        font-family: "inter-bold";
+        font-weight: 900;
+        color:white;
+        padding-top:10px;
+        text-align: left;
+        margin-bottom:0px;
+
+    }
+
+    .AktienbarsHeadlineMobile2{
+
+        font-size:16px;
+        font-family: "inter-regular";
+        font-weight: 400;
+        color:white;
+        padding-top:50px;
+        text-align: left;
+        margin-bottom:20px;
+        padding-left:16px;
+        padding-right:15px;
+    }
+
+
+} */
+
+

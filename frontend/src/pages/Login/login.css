@@ -1,0 +1,126 @@
+.loginBody{
+    width: 100%;
+    height: 100%;
+}
+
+.loginContainer{
+    width:50%;
+    padding: 20px;
+    background-color: aliceblue;
+    margin: auto;
+    margin-top: 100px;
+    background: linear-gradient(20deg, rgba(255, 255, 255, 0.20), rgba(255,255,255,10%),  rgba(255,255,255,0%));
+    border-color: white;
+    border-radius: 14px;
+    border: 0.25px;
+    border: outset 1px;
+    padding: 40px;
+    cursor: default;
+    transition: 0.3s ease;
+    box-shadow: 5px 6px 10px rgba(0,0,0,0.2);
+}
+
+@media screen and (max-width: 800px) {
+    .loginContainer{
+        width:70%;
+    }
+}
+
+.loginBox{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.boxTextHead{
+    font-size:calc(15px + 0.4vw);
+    font-weight:900;
+    color: white;
+    margin-left:10px;
+}
+
+.boxText{
+    color: white;
+    margin-left:10px;
+    margin-top:10px;
+}
+
+.passwordforget{
+    margin-top: 10px;
+    text-align: center;
+}
+
+input{
+    border-radius:25px;
+    padding:20px;
+    border-style: none;
+    background-color: rgba(0,0,0,0.4);
+    caret-color: white;
+    color:white;  
+}
+
+.logginInput{
+    margin-bottom: 10px;
+}
+
+
+::placeholder {
+    color: rgba(255,255,255,0.4);
+    font-size:calc(8px + 0.4vw);
+  }
+
+
+.inputName{
+    display: flex;
+    gap: 10px;
+    width:10%
+}
+
+.NiftyButton{
+    margin:auto;
+    background-color: rgba(0,0,0,0.6);
+    margin-top: 20px;
+    padding:10px 30px;
+    border-style: none;
+    height:40px;
+    border-radius:25px;
+    cursor: pointer;
+    color: white;
+    transition:ease-in-out 0.2s;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.5);
+}
+
+.NiftyButton:hover{
+    background-color: rgba(0,0,0,0.55)
+}
+
+.nameInputContainer{
+    display: flex;
+    gap: 10px;
+}
+
+.Line{
+    margin-top:40px;
+    border-bottom: solid white 1px;
+}
+
+.registerText{
+    text-align:center;
+    color: rgba(0,0,0,1);
+    font-size:"15px";
+    transition: ease-in-out 0.2s;
+}
+
+.registerText:hover{
+    color: rgba(0,0,0,0.6);
+    transition: ease-in-out 0.2s;
+}
+
+form {
+    display: grid;
+}
+
+input:-webkit-autofill {
+    background: red;
+  }

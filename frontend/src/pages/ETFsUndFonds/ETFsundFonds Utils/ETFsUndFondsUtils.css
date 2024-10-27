@@ -1,0 +1,131 @@
+/* Allgemein */
+
+.FondsHeadline{
+    margin-top:50px;
+    font-size: 50px;
+    font-family: "inter-Bold";
+    color:white;
+    margin-left:-80px;
+    margin-bottom:20px;
+  letter-spacing: -1px;
+}
+
+
+/* Header */
+
+.FondsDashboardHeaderContainer{
+    top:0;
+    position:sticky;
+      box-shadow: 0 70px 63px -60px #000;
+      width: 100%;
+      height: 140px;
+      border-bottom: outset, 1px;
+      border-color:white;
+      color: white;
+      margin-bottom: 15px;
+      background: rgba(255,255,255,0.02);
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      box-shadow: 0 70px 63px -60px #000;
+      transition: 0.3s ease;
+      z-index:999;
+      backdrop-filter: blur(14px);
+      
+      -webkit-backdrop-filter: blur(80px);
+  
+    }
+
+    .ContainerLinksOben{
+        font-size: 40px;
+        font-family: "Inter-Bold";
+        font-weight: 400;
+        letter-spacing: -1px;
+        margin-top:50px;
+        margin-bottom:2%;
+        margin-left:2vw;
+    }
+
+    .ContainerLinksUnten{
+        display:flex;
+        flex-direction: row;
+        margin-left:2vw;
+        white-space: nowrap;
+    }
+
+    .ContainerRechtsOben{
+        font-size: 40px;
+        font-family: "Inter-Bold";
+        font-weight: 400;
+        letter-spacing: -1px;
+        margin-top:50px;
+        margin-right:2vw;
+        margin-bottom:2%;
+        white-space:nowrap;
+        text-align: right;
+    }
+
+    .ContainerRechtsUnten{
+        display:flex;
+        flex-direction: row;
+        white-space: nowrap;
+        margin-right:2vw;
+
+    }
+
+
+    /* First Row */
+
+    .FondsKursContainer{
+        margin:auto;
+        width:80%;
+ 
+    }
+
+    .FondsTop10TableContainerOuter{
+        width: 80%;
+        margin: auto;
+    }
+
+        /* Second Row */
+    .FondsTop10TableContainer{
+        display:flex;
+        justify-content: space-evenly;
+        margin:auto;
+        width:100%;
+ 
+    }
+
+    .MorningstarRating{
+        display:flex;
+        flex-direction: column;
+    }
+
+    /* Third Row */
+    
+    .FondsPieChartsContainer{
+        height:500px;
+        width: 80%;
+        margin: auto;
+    }
+
+    .FondsPieChartsInnerContainer{
+        display:flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .FondsPieChartSektor{
+        width:33%;
+    }
+
+    .FondsPieChartLänder{
+        width:33%;
+
+    }
+
+
+    .FondsPieChartAssets{
+        width:33%;
+
+    }

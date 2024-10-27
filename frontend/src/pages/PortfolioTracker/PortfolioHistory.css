@@ -1,0 +1,46 @@
+/* PortfolioHistory.css */
+
+.transactionHistory {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .transactionItem {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .transactionItem p {
+    margin: 0 10px;
+    flex: 1;
+  }
+  
+  .transactionItem button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 16px;
+  }
+  
+  .transactionItem .editButton {
+    color: #007BFF;
+  }
+  
+  .transactionItem .editButton:hover {
+    color: #0056b3;
+  }
+  
+  .transactionItem .deleteButton {
+    color: red;
+  }
+  
+  .transactionItem .deleteButton:hover {
+    color: darkred;
+  }
+  

@@ -1,0 +1,16 @@
+.sankeyButtons {
+  background-color: rgba(255,255,255,0);
+  border: none;
+  color: white;
+  padding: 15px 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.sankeyButtons:hover {
+ opacity: 0.7;
+}

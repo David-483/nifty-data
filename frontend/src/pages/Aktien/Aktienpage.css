@@ -1,0 +1,33 @@
+.Aktiendashboard-AllgemeineInfo-container{
+    width: 90%;
+    height: 100%;
+    background: rgba(0,0,0,0.4);
+    margin:auto;
+    margin-top:50px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex-direction: column;
+    box-shadow: 0 70px 63px -60px #000;
+    transition: 0.3s ease;
+    overflow: auto;
+  }
+
+
+@media screen and (max-width: 700px) {
+  .Aktiendashboard-AllgemeineInfo-container{
+    width: 100%;
+    border-radius: 0px;
+    margin-top:20px;
+  }
+}
+  /* .MuiButtonBase-root.MuiTab-root.MuiTab-labelIcon.MuiTab-textColorPrimary.css-aym9vq-MuiButtonBase-root-MuiTab-root {
+    opacity:0.3;
+    color: white;
+  }
+  
+  .MuiButtonBase-root.MuiTab-root.MuiTab-labelIcon.MuiTab-textColorPrimary.css-aym9vq-MuiButtonBase-root-MuiTab-root.Mui-selected {
+    opacity:1;
+  } */

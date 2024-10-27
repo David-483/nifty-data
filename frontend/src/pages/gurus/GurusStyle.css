@@ -1,0 +1,571 @@
+.guruFirstRow {
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+  }
+
+  .guruInnerTop{
+    display:flex;
+  }
+
+  @media all and (max-width: 1200px) {
+
+    .guruCard{
+        margin-bottom:50px;
+        width:100%;
+        height:500px;
+    }
+    
+    .guruInnerTop{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+    }
+  
+  .guruBio {
+  height: 500px;
+  overflow-y: auto;
+  width: 90%;
+  background: white;
+  background: linear-gradient(20deg, rgba(255, 255, 255, 0.20), rgba(255,255,255,10%),  rgba(255,255,255,0%));
+  border: outset 1px;
+  border-color: white;
+  border-radius: 15px;
+  box-shadow: 0 70px 63px -60px #000;
+  height:500px;
+  }
+  
+  .guruHeadlineContainer{
+    position: relative;
+font-family: "inter-Bold";
+color: white;
+margin-bottom: 20px;
+display: flex;
+justify-content: space-between;
+  }
+
+
+  .guruHeadline {
+    font-size: 50px;
+  }
+  
+  .guruHeadline2 {
+    color: #fff;
+    opacity: 1;
+    font-size: 50px;
+    font-weight: 900;
+  }
+  
+  .guruHeadline3 {
+    color: #fff;
+    opacity: 1;
+    font-size: 50px;
+    font-weight: 900;
+  }
+  
+  .guruHeadline4 {
+    color: #fff;
+    opacity: 1;
+    font-size: 50px;
+    font-weight: 900;
+  }
+  
+  .guruPortfolioTablePlusMinus{
+    margin-top:50px;
+    display:flex;
+    justify-content: space-between;
+  }
+
+  .carousel-sliderPlus {
+    width: 48%;
+}
+
+.carousel-sliderMinus {
+    width: 48%;
+}
+  
+  
+  .guruBioHeader {
+    text-align:center;
+    color: #fff;
+    opacity: 1;
+    font-size: 20px;
+    font-weight:500;
+  }
+
+  .guruBioHeaderText{
+    pointer-events: none;
+  }
+  
+  .guruBioTable {
+    padding: 4% 4% 0% 4%;
+    width: 100%
+  }
+  
+  .guruBioRow {
+    border-bottom: none;
+    font-weight:900
+  }
+  
+  .guruBioRow2 {
+    border-bottom: none;
+    font-size: 15px;
+    font-weight:300;
+  }
+
+  
+  .guruBioText {
+    margin:auto;
+    padding: 2%;
+    text-align: justify;
+    border-bottom: none;
+    font-size: 16px;
+    font-weight:300;
+    max-width: 90%;
+    line-height: 1.8
+  }
+  
+  .main {
+   overflow: visible;
+  }
+  
+
+  
+  .carousel-slider-zugaenge .tableHeader{
+    background-color: rgba(0, 0, 0, 0.1);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border: 1px outset rgb(255, 255, 255);
+    border-bottom: none;
+    width: 80%;
+    box-shadow: 0 70px 63px -60px #000;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+   }
+   
+   .guruTableLinks{
+    color:white;
+   }
+
+   .guruTableLinks:hover{
+    color:rgba(255, 255, 255, 0.8);
+   }
+
+  .carousel-slider-zugaenge .tableInhalt{
+    background: linear-gradient(20deg, rgba(0, 255, 21, 0.212), rgba(0, 255, 76, 0.103),  rgba(30, 255, 0, 0));
+    height:300px;
+    overflow-x:auto;
+    margin-top: 0px;
+    border: 1px outset rgb(255, 255, 255);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 80%;
+    box-shadow: 0 70px 63px -60px #000;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .carousel-slider-zugaenge th{
+    padding: 20px 15px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  
+  .carousel-slider-zugaenge td{
+    padding: 15px;
+    text-align: left;
+    vertical-align:middle;
+    font-weight: 300;
+    font-size: 12px;
+    color: #fff;
+    border-bottom: solid 1px rgba(255,255,255,0.1);
+  }
+
+  .aumchartcontainer{
+    width: 100%;
+    margin:auto;
+    height: 500px;
+    background: white;
+    padding: 1% 1% 3% 1%;
+    background: linear-gradient(20deg, rgba(255, 255, 255, 0.20), rgba(255,255,255,10%),  rgba(255,255,255,0%));
+    border: outset 1px;
+    border-color: white;
+    border-radius: 15px;
+    box-shadow: 0 70px 63px -60px #000;
+    }
+    
+    .aumchart{
+      height: 500px;
+      width: 100%;
+    }
+  
+  .carousel-slider-zugaenge .tableInhalt tr:hover {
+    background-color:rgba(0, 0, 0, 0.233);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  
+  .carousel-slider-abgaenge .tableHeader{
+    background-color: rgba(0, 0, 0, 0.1);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border: 1px solid rgb(255, 255, 255);
+    border-bottom: none;
+    box-shadow: 0 70px 63px -60px #000;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+   }
+   
+  .carousel-slider-abgaenge .tableInhalt{
+    background: linear-gradient(20deg, rgba(255, 0, 0, 0.2), rgba(255, 0, 0, 0.1),  rgba(255,255,255,0%));
+    height:300px;
+    overflow-x:auto;
+    margin-top: 0px;
+    border: 1px solid rgb(255, 255, 255);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 0 70px 63px -60px #000;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .carousel-slider-abgaenge th{
+    padding: 20px 15px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  
+  .carousel-slider-abgaenge td{
+    padding: 15px;
+    text-align: left;
+    vertical-align:middle;
+    font-weight: 300;
+    font-size: 12px;
+    color: #fff;
+    border-bottom: solid 1px rgba(255,255,255,0.1);
+  }
+  
+  .carousel-slider-abgaenge .tableInhalt tr:hover {
+    background-color:rgba(0, 0, 0, 0.233);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  
+  .guruSectorTopTenHoldingsTreemap {
+    display: flex;
+    justify-content: center;
+    width: 96%;
+    margin:auto;
+    height: 420px;
+    background: white;
+    margin-top: 15px;
+    background: linear-gradient(20deg, rgba(255, 255, 255, 0.20), rgba(255,255,255,10%),  rgba(255,255,255,0%));
+    border: outset 1px;
+    border-color: white;
+    border-radius: 15px;
+    box-shadow: 0 70px 63px -60px #000;
+  }
+  
+  .guruSectorChartcontainer {
+    display: flex;
+    justify-content: center;
+    width: 96%;
+    margin:auto;
+    height: 420px;
+    background: white;
+    margin-top: 15px;
+    background: linear-gradient(20deg, rgba(255, 255, 255, 0.20), rgba(255,255,255,10%),  rgba(255,255,255,0%));
+    border: outset 1px;
+    border-color: white;
+    border-radius: 15px;
+    box-shadow: 0 70px 63px -60px #000;
+    margin-bottom: 100px
+  }
+  
+  .guruFoot {
+
+    color: #fff;
+    text-align: center;
+    opacity: 1;
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 100px
+  }
+  
+
+  .guru-views, .guru-likes {
+	text-decoration: none;
+	font-size: 15px;
+	color: white;
+}
+
+.guru-guruName {
+  padding-top: 25px;
+	font-size: 25px;
+	text-align: center;
+	color: white;
+	margin-bottom: -10px;
+}
+
+.guru-companyName {
+	font-size: 17px;
+	text-align: center;
+	color: rgba(255, 255, 255, 0.8);
+}
+
+.guru-companyValue {
+	font-size: 15px;
+	text-align: center;
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.guru-horizontal-list {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+	.guru-horizontal-list li {
+		float: left;
+	}
+	
+.guru-icon {
+	font-size: 25px;
+}
+
+.guru-profile-picture {
+	border-radius: 100%;
+	overflow: hidden;
+	-webkit-box-sizing: content-box;
+  	-moz-box-sizing: content-box;
+  	box-sizing: content-box;
+
+}
+	.guru-big-profile-picture {
+		margin: auto;		
+		margin-top: 30px;
+		border: 3px solid #ffffff;
+		width: 250px;
+		height: 250px;
+    box-shadow: 0 70px 63px -60px #000;
+	}
+
+.guru-main-container {
+	width: 950px;
+	height: 1725px;
+	margin: 6em auto;
+}		
+	.guru-container {
+		float: left;
+		width: 400px;
+	}
+		.guruCard {
+			background: linear-gradient(90deg, rgba(255, 255, 255, 0.20), rgba(255,255,255,10%),  rgba(255,255,255,0%));
+			border-radius: 15px;
+			border: 0.25px;
+			border-style: outset;
+			border-color: #ffffff;
+      box-shadow: 0 70px 63px -60px #000;
+      height:500px;
+		}
+		.guru-middle-container {
+      margin-right: 10%;
+		}
+
+				.guru-description {
+					width: 210px;
+					margin: 0 auto;
+					text-align: center;
+					margin-bottom: -10px;
+				}
+				.guru-profile-description2 {
+					margin: 0 auto;
+					text-align: center;
+					margin-bottom: -20px;
+				}
+				.guru-profile-description3 {
+					width: 210px;
+					margin: 0 auto;
+					text-align: center;
+					margin-top: 25px;
+
+				}
+				.guru-profile-options {
+					padding-top: 20px;
+				}
+						.guru-profile-options p {
+							margin: 0;
+							justify-content: center;
+						}
+						.guru-profile-options a {
+							display: block;					
+							width: 149px;
+							line-height: 60px;
+							text-align: center;
+			
+						}
+							.guru-profile-options a:hover {
+								text-decoration: none;
+								border-bottom-left-radius: 15px;
+								border-bottom-right-radius: 15px;
+							}
+							.guru-profile-options a:hover.guru-views .guru-icon {
+								color: #48ff00;
+							}
+							.guru-profile-options a:hover.guru-likes .guru-icon {
+								color: #ff0000;
+							}
+							.guru-profile-options .guru-icon {
+								padding-right: 10px;
+							}
+							.guru-profile-options .guru-views {
+								border-top: 2px solid #ffffff50;
+							}
+							.guru-profile-options .guru-likes {
+								border-top: 2px solid #ffffff50;
+							}
+
+              .guru-detail-topsection{
+                display: flex;
+                flex-shrink: 0;
+                flex-direction: row;
+                width: auto;
+                align-content:space-between;
+              }
+
+
+.guru-detail-middlesection .carousel-slider{
+  width: 1000px;
+  background-color: #21242d;
+  margin-left: 20px;
+  border-radius: 15px;
+}
+  
+
+  
+    .start-page-gurus{
+      display: flex;
+      justify-content: space-between;
+      width:90%;
+      margin:auto;
+      flex-wrap:wrap;
+      gap:30px;
+      margin-bottom:100px;
+    }
+  
+    .start-page-gurus-container{
+      box-shadow: 0 70px 63px -60px #000;
+      width: 20%;
+      height: 420px;
+      background: white;
+      margin-bottom: 15px;
+      background: linear-gradient(20deg, rgba(255, 255, 255, 0.20), rgba(255,255,255,10%),  rgba(255,255,255,0%));
+      border: outset 1px;
+      border-color: white;
+      border-radius: 15px;
+      display: flex;
+      justify-content: space-between;
+      box-shadow: 0 70px 63px -60px #000;
+      transition: 0.3s ease;
+    }
+  
+    .start-page-gurus-container:hover{
+      transform: scale(1.08);
+      background-color: rgba(25, 27, 16, 0.4);
+    }
+  
+    .start-page-gurus-content{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 100%;
+    }
+  
+    .start-page-gurus-content-image{
+      margin: 15px auto 5px auto;
+      border-radius: 100%;
+      overflow: hidden;
+      -webkit-box-sizing: content-box;
+      -moz-box-sizing: content-box;
+      box-sizing: content-box;
+      /* margin: auto; */
+      border: 3px solid #ffffff;
+      /* width: 150px; */
+      /* height: 150px; */
+      box-shadow: 0 70px 63px -60px #000;
+    }
+  
+    .start-page-gurus-content-name{
+      font-family: "Metrisch-Bold";
+      margin: 5px auto 0px auto;
+      font-size: 22px;
+      font-weight: 700;
+      line-height: 1.3;
+    }
+  
+  
+    .start-page-gurus-content-companyname{
+      font-family: "Metrisch-Book";
+      margin: 2px auto 12px auto;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 1.3;
+    }
+  
+    .start-page-gurus-content-container-infos{
+      display: flex;
+      justify-content: space-evenly;
+      flex-direction: column;
+      border-bottom: 1px solid var(--border-color);
+      border-top: 1px solid var(--border-color);
+      margin-bottom: 5px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  
+    .start-page-gurus-content-info{
+      color: white;
+      text-align: center;
+      margin: auto auto auto 15px;
+      align-self: left;
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 1.3;
+    }
+  
+    .start-page-gurus-content-value{
+      color: white;
+      text-align: center;
+      margin: auto 15px auto auto;
+      align-self: right;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 1.3;
+    }
+  
+    .start-page-gurus-content-container-block{
+      display: flex;
+      align-content: space-between;
+      margin-top: 1px;
+      margin-bottom: 1px;
+    }
+  
+    .start-page-gurus-content-container-block-lastUpdated{
+      display: flex;
+      align-content: space-between;
+      margin-top: 6px;
+    }
+
+    

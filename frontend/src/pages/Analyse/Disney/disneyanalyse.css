@@ -1,0 +1,483 @@
+
+/* AB HIER ANALYSEN */
+
+.AnalyseFirstRow{
+    display:table;
+  
+  }
+  
+  .Analyse_Table_First {
+    display:grid;
+    white-space: nowrap;
+    width:400px;
+    
+  }
+  
+  .Analyse_Table_First_Row{
+    display: flex;
+    justify-content: space-between;
+    white-space: nowrap;
+    height:40px;
+    align-items: center;
+    border-bottom: 0.5px solid rgba(255,255,255,0.4);
+    border-spacing: 20px;
+  }
+  
+  .Analyse_Table_First_Cell{
+    font-weight: 900;
+  }
+  
+  .TableOverLine{
+    color: white;
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom:20px;
+  } 
+  
+  .TableHeadline{
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom:2px;
+    margin-top:40px;
+    border-bottom: 0;
+  }
+  
+  
+  .TableHeadlineTop{
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    margin-bottom:2px;
+    border-bottom: 0;
+  }
+  
+  .Analyse_Table_Second_Cell {
+    font-weight: 100;
+    padding-top: 0px;
+  }
+  
+  .Analyse_Headline{
+    display:flex;
+    justify-content: left;
+    margin-left: 50px;
+    margin-top: 120px;
+    margin-bottom:20px;
+    font-size: 70px;
+    color: white;
+    font-weight: 900;
+  }
+  
+  .Analyse_First_Text{
+    color: white;
+  text-align: justify;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  max-width: 500px;
+  }
+  
+  .AnalyseFirstRowContainer {
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+  }
+  
+  .AnalyseHeaderImage {
+  border-radius: 15px;
+  height: 700px;
+  object-fit: contain;
+  align-self: center;
+  transition: transform 0.7s;
+  box-shadow: 0 70px 63px -60px #000;
+  
+  }
+  
+  .AnalyseHeaderImage :hover
+  {
+    transform: scale(1.05, 1.05);
+    box-shadow: 0 70px 63px -60px #000;
+  }
+  
+  
+  
+  .AnalyseHeaderImage2 {
+    object-fit: contain;
+    width: 80%;
+    margin: auto;
+    border-radius: 15px;
+    margin-top:40px;
+  }
+  
+  
+  .AnalyseHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:100px;
+    background-color: #000;
+    box-shadow: 0 70px 63px -60px #000;
+    position: sticky;
+    top:0;
+    z-index: 999;
+    margin-bottom:50px;
+  } 
+  
+  .AnalyseLogoContainer {
+    width:10%;
+    margin-left: 30px;
+    margin-top: 5px;
+  } 
+  
+  .glow-on-hover {
+    width: 400px;
+    height: 100px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    margin-top: 50px;
+  }
+  
+  .glowButton {
+    display:flex;
+    justify-content: center;
+  }
+  
+  .glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ffffff,#ffffff);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+  }
+  
+  .glow-on-hover:active {
+    color: #000
+  }
+  
+  
+  
+  .glow-on-hover:hover:before {
+    opacity: 1;
+  }
+  
+  .glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+  }
+  
+  @keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+  }
+  
+  .AnalyseAutor{
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+    margin-right: 30px;
+  } 
+  
+  .AnalyseManagementContainer {
+    display: block;
+    margin-top: 20px;
+  }
+  
+  .AnalyseFirstTextBannerContainer{
+  display: flex;
+  margin-top:10px;
+  margin-bottom: 10px;
+  }
+  
+  .AnalyseFirstTextContainer{
+    display:flex;
+  }
+  
+  .AnalyseHistorieBanner{
+    object-fit: cover;
+    display: block;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height:200px;
+    transition: transform 0.7s;
+    box-shadow: 0 70px 63px -60px #000;
+  }
+  
+  .GrafikenWide {
+    transition: transform 0.7s;
+    box-shadow: 0 70px 63px -60px #000;
+    border-radius: 15px;
+  }  
+  
+  .FirstPieChart{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .SecondPieChart {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+  }  
+  
+  .AnalyseOverviewText {
+    color: white;
+    text-justify: auto;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 20px;
+  line-height: 20px;
+  }
+  
+  .AnalyseOverviewText ::first-line {
+    color: white;
+    font-weight: 900;
+    text-justify: auto;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 20px;
+  line-height: 25px;
+  }
+  
+  .AccordionHistorie {
+    width: 90%;
+    margin:auto;
+    margin-top:50px;
+  }
+  
+  .HistoryContainer2 {
+    margin-top: 80px;
+  }
+  
+  .BusinessCaseText1 {
+    color: white;
+    text-justify: auto;
+  margin-left: 50px;
+  margin-right: 80px;
+  margin-top: 20px;
+  line-height: 20px;
+  }
+  
+  .ManagementText1 {
+    color: white;
+    text-justify: auto;
+  margin-left: 50px;
+  margin-right: 80px;
+  margin-top: 20px;
+  line-height: 20px;
+  }
+  
+  .AnalyseManagementImage {
+  border-radius: 15px;
+  border-style: outset;
+  border-color: #ffffff;
+  border-width: 1px;
+  }
+  
+  .AnalyseTextH0 {
+    color: white;
+    margin-top: 40px;
+    font-size:40px;
+  }
+  
+  .AnalyseTextH1 {
+    color: white;
+    margin-top: 40px;
+    margin-left: 20px;
+  }
+  
+  .AnalyseTextH1sub {
+    color: white;
+    margin-top: 40px;
+    margin-left: 40px;
+  }
+  
+  .AnalyseTextH2{
+    color: white;
+    margin-top:40px;
+    font-size: 20px;
+    font-weight:900;
+  }
+  
+  .AnalyseTextH2sub {
+    color: white;
+    margin-top:40px;
+    font-size: 20px;
+    font-weight:900;
+    margin-left:40px;
+  }
+  
+  .GlassdoorCheckHeadline {
+    color: white;
+    margin-top:10px;
+    font-size: 20px;
+    font-weight:900;
+  }
+  
+  
+  .AnalyseTextH3sub {
+    color: white;
+    margin-top:40px;
+    font-size: 17px;
+    font-weight:900;
+    margin-left:80px;
+    text-align: justify;
+  }
+  
+  .AnalyseTextP{
+    color: white;
+    font-size: 15px;
+    font-weight:100;
+    text-align: justify;
+  }
+  
+  .AnalyseTextP1{
+    color: white;
+    font-size: 15px;
+    font-weight:100;
+    margin-left: 20px;
+    text-align: justify;
+  }
+  
+  .AnalyseTextP2sub{
+    color: white;
+    font-size: 15px;
+    font-weight:100;
+    margin-left: 40px;
+    text-align: justify;
+  }
+  
+  .AnalyseTextP3sub {
+    color: white;
+    font-size: 15px;
+    font-weight:100;
+    margin-left: 80px;
+    text-align: justify;
+  }
+  
+  .AccordionContainer {
+    display: flex;
+    justify-content: center;
+    margin-top:5px;
+  }
+  
+  .AccordionContainerOutside {
+    margin-bottom: 50px;
+  }
+  
+  .ManagementName {
+    color: white;
+    margin-top: 40px;
+    font-weight: 100;
+  }
+  
+  .ManagementTextSub {
+    color: white;
+    margin-top:40px;
+    font-size: 20px;
+    font-weight:900;
+    text-align: justify;
+  }
+  
+  .GlassdoorCheckLogo {
+    margin-top:40px;
+  }
+  
+  .GlassdoorLogo {
+    width: 50%;
+  }
+  
+  
+  .analyseInfoGlassDoor{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 2;
+    background: black;
+    border: solid;
+    border-color: white;
+    border-radius: 14px;
+    border: 0.25px;
+    border-style: outset;
+    border-color: #ffffff;
+    padding: 20px;
+    cursor: default;
+    transition: 0.3s ease;
+    box-shadow: 0 70px 63px -60px #000;
+    margin: auto;
+    overflow-y: auto;
+  }
+  
+  .GlassdoorCheckContainer {
+    display: flex;
+  } 
+  
+  .AnalyseHistorieBanner:hover img{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: 0.8s;
+    transition: transform 0.8s;
+    transition-timing-function: ease-in-out;
+    opacity:1;
+    -webkit-transition: transform 0.8s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: transform 0.8s ease-out;
+  }
+  
+  .Analyse_UmsatzTable_First {
+    display: table;
+    margin: auto;
+    border-collapse: collapse;
+  }
+  
+  .Umsatzgrafik {
+    width: 1000px;
+    margin-left: 40px;
+    margin-right:48px;
+  } 
+  
+  .UmsatzTableUndChart {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+  }
+  
+  .UmsatzverteilungContainer {
+  
+  }
+  
+  .AktienkursAnalyse {
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+  }  
+  
+  .Umsatzverteilung {
+  margin-top:50px;
+  }

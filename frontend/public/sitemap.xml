@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>https://www.nifty-data.de/</loc>
+  <lastmod>2023-03-13T20:54:59+00:00</lastmod>
+</url>
+<url>
+  <loc>https://www.nifty-data.de/#/aktien/AAPL</loc>
+  <lastmod>2023-03-13T20:54:59+00:00</lastmod>
+</url>
+<url>
+  <loc>https://www.nifty-data.de/#/findStocks/luxus</loc>
+  <lastmod>2023-03-13T20:54:59+00:00</lastmod>
+</url>
+<url>
+  <loc>https://www.nifty-data.de/#/aktiencategory/Consumer%20Cyclical</loc>
+  <lastmod>2023-03-13T20:54:59+00:00</lastmod>
+</url>
+<url>
+  <loc>https://www.nifty-data.de/#/gurus/0001067983</loc>
+  <lastmod>2023-03-13T20:54:59+00:00</lastmod>
+</url>
+
+</urlset>

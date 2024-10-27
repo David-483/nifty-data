@@ -1,0 +1,124 @@
+.ChartsBody{
+  width:100%;
+  height:100%;
+}
+
+/* FirstRow */
+.ChartsFirstRow{
+  display:flex;
+  justify-content: space-evenly;
+  flex-wrap:wrap;
+  width:100%;
+  margin:auto;
+  margin-top:50px;
+}
+
+.ChartsSecondRow{
+  display:flex;
+  justify-content: space-evenly;
+  flex-wrap:wrap;
+  width:97%;
+  margin:auto;
+  margin-top:50px;
+}
+
+.ChartsThirdRow{
+  flex-wrap:wrap;
+  width:90%;
+  margin:auto;
+  margin-top:50px;
+}
+
+@media screen and (max-width: 700px) {
+  .ChartsThirdRow{
+    flex-wrap:wrap;
+    width:100%;
+    margin:auto;
+    margin-top:50px;
+  }
+
+  .iconButtonInfo, .Aktiendashboard-Aktienkurs-container-buttons{
+    display: none;
+  }
+}
+
+.UmsatzChart{
+  width:45%;
+}
+
+.GewinnChart{
+  width:45%;
+}
+
+.ChartHeadlineContainer {
+  position:relative;
+  font-family: "inter-Bold";
+  color: white;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 700px) {
+  .ChartHeadlineContainer{
+    width:95%;
+    margin: auto;
+    position:relative;
+    font-family: "inter-Bold";
+    color: white;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.ChartHeadline{
+  font-size: calc(15px + 1.4vw);
+}
+
+.ChartsContainer {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  /* background: linear-gradient(20deg, rgba(255, 255, 255, 0.20), rgba(255,255,255,10%),  rgba(255,255,255,0%)); */
+  border: solid;
+  border-color: white;
+  border-radius: 14px;
+  border: 0.25px;
+  border-style: outset;
+  border-color: #ffffff;
+  padding: 20px;
+  cursor: default;
+  transition: 0.3s ease;
+  box-shadow: 0 70px 63px -60px #000;
+} 
+
+@media screen and (max-width: 700px) {
+  .ChartsContainer {
+    display: flex;
+    width:100%;
+    flex-direction: column;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0);
+    border: none;
+    border-color: none;
+    border-radius:0px;
+    padding: 0px;
+    padding-bottom: 20px;
+    transition: none;
+    box-shadow: none;
+    background-color: rgba(0,0,0,0);
+  };
+
+}
+
+.SwitchButtonContainer{
+  display: flex;
+  align-items: flex-end;
+}
+
+
+.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-colorPrimary.MuiIconButton-sizeMedium.css-1kuq5xv-MuiButtonBase-root-MuiIconButton-root:hover {
+color:blue;
+}
+

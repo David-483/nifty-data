@@ -1,0 +1,48 @@
+.start-page-container-custom-header {
+  margin:auto;
+    margin-top: 80px;
+    width:90%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+  }
+
+
+  
+  .start-page-content-custom-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: white;
+    margin-bottom: 15px;
+    background: linear-gradient(20deg, rgba(255, 255, 255, 0.20), rgba(255,255,255,10%),  rgba(255,255,255,0%));
+    /* background-image: url(https://www.transparenttextures.com/patterns/diagmonds.png), linear-gradient(139deg, rgb(5 126 255), rgb(0 255 245),  rgb(0 231 255 / 98%)); */
+    border: outset 1px;
+    border-color: white;
+    border-radius: 15px;
+    padding: 50px;
+    box-shadow: 0 70px 63px -60px #000;
+    transition: 0.3s ease;
+  }
+  
+  .start-page-content-wrapper-custom-header-text{
+      font-weight: 400;
+      font-size: 18px;
+      margin-top: 16px;
+      line-height: 1.7em;
+      color: #ffffff;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
+  }
+  
+
+  
+  .start-page-content-wrapper-custom-header-button:hover{
+      background-position: 100% 0;
+      moz-transition: all .4s ease-in-out;
+      -o-transition: all .4s ease-in-out;
+      -webkit-transition: all .4s ease-in-out;
+      transition: all .4s ease-in-out;
+  }

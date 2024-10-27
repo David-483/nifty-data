@@ -1,0 +1,166 @@
+.calculatorsHeadline{
+    margin-top:50px;
+    margin-left:50px;
+    margin-bottom:20px;
+    font-family: "inter-bold";
+    font-size:50px;
+    color: white;
+}
+
+#output{
+    color: white;
+    font-size: 18px;
+}
+
+
+.tooltipText{
+    position: relative;
+    display: inline-block;
+}
+
+
+  
+  /* Tooltip text */
+  .tooltipText .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    bottom: 120%;
+    margin-left: -105px;
+
+  }
+  
+  .tooltipText:hover .tooltiptext {
+    visibility: visible;
+  }
+
+#inputStart{
+    width:100%;
+    color: #fff;
+    font-size: 16px;
+    padding: 11px 17px; 
+    border: none;
+    margin-top:-10px;
+    background-color: rgba(255,255,255,0.1);
+}
+
+#inputEnd{
+    width:100%;
+    color: #fff;
+    font-size: 16px;
+    padding: 11px 17px; 
+    border: none;
+    margin-top:-10px;
+    background-color: rgba(255,255,255,0.1);
+}
+
+#inputCapital{
+    width:100%;
+    color: #fff;
+    font-size: 16px;
+    padding: 11px 17px; 
+    border: none;
+    margin-top:-10px;
+    background-color: rgba(255,255,255,0.1);
+}
+
+#inputInterest{
+    width:100%;
+    color: #fff;
+    font-size: 16px;
+    padding: 11px 17px; 
+    border: none;
+    margin-top:-10px;
+    background-color: rgba(255,255,255,0.1);
+}
+
+#inputYears{
+    width:100%;
+    color: #fff;
+    font-size: 16px;
+    padding: 11px 17px; 
+    border: none;
+    margin-top:-10px;
+    background-color: rgba(255,255,255,0.1);
+}
+
+.calculatorContainer{
+    margin:auto;
+    margin-top:50px;
+    width:90%;
+    margin-bottom:50px;
+    flex-direction: column;
+    font-size: 16px;
+    background: linear-gradient(20deg, rgba(255, 255, 255, 0.20), rgba(255,255,255,10%),  rgba(255,255,255,0%));
+    border-color: white;
+    border-radius: 14px;
+    border: 0.25px;
+    border-style: outset;
+    border-color: #ffffff;
+    padding: 20px;
+    cursor: default;
+    transition: 0.3s ease;
+    box-shadow: 0 70px 63px -60px #000;
+}
+
+.CAGRResult{
+    display:flex;
+    font-family: "inter-bold";
+    font-size:30px;
+    letter-spacing: -1px;
+    justify-content: space-between;
+    text-align:right;
+    align-items: flex-end;
+}
+
+
+.CAGRButton {
+    margin-top:30px;
+    width: 140px;
+    height: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    }
+  
+  .CAGRButton:hover {
+    background-color: #efb6ff;
+    /* box-shadow: 0px 15px 20px rgba(46, 107, 229, 0.4); */
+    color: #fff;
+    transform: translateY(0px);
+  }
+
+  .calculatorMainContainer{
+    box-shadow: 0 70px 63px -60px #000;
+    width: 80%;
+    background: white;
+    margin:auto;
+    margin-top:50px;
+    margin-bottom: 15px;
+    background: linear-gradient(20deg, rgba(255, 255, 255, 0.20), rgba(255,255,255,10%),  rgba(255,255,255,0%));
+    border: outset 1px;
+    border-color: white;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    box-shadow: 0 70px 63px -60px #000;
+    transition: 0.3s ease;
+  }

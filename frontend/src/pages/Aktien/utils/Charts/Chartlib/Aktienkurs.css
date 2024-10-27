@@ -1,0 +1,357 @@
+/* Rendite-Anzeige */
+.Aktiendashboard-Aktienkurs-returns {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff; /* Weißer Text für dunklen Hintergrund */
+  background-color: rgba(0, 0, 0, 0.7); /* Halbtransparenter, dunkler Hintergrund */
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Stil für das Hover-Value-Display */
+.Aktiendashboard-Aktienkurs-hover-value {
+  background-color: rgba(0, 0, 0, 0.75); /* Halbtransparenter Hintergrund */
+  color: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Datumsfelder */
+.Aktiendashboard-Aktienkurs-container-buttons input[type="date"] {
+  background-color: #333; /* Dunkler Hintergrund */
+  color: white; /* Weißer Text */
+  border: none;
+  border-radius: 10px;
+  padding: 8px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.Aktiendashboard-Aktienkurs-container-buttons button {
+  background-color: rgba(0, 0, 0, 0.7); /* Halbtransparenter, dunkler Hintergrund */
+  border: none;
+  border-radius: 10px; /* Abgerundete Ecken */
+  color: white;
+  padding: 8px 16px; /* Erhöhte Polsterung */
+  cursor: pointer;
+  font-size: 16px; /* Angemessene Schriftgröße */
+  transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Deutlicherer Schatten */
+  font-family: 'Roboto', sans-serif; /* Moderne Schriftart */
+}
+
+/* Hover- und Focus-Stile für Buttons */
+.Aktiendashboard-Aktienkurs-container-buttons button:hover,
+.Aktiendashboard-Aktienkurs-container-buttons button:focus {
+  background-color: #0056b3; /* Dunkleres Blau beim Hover */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Stärkerer Schatten beim Hover */
+  transform: translateY(-3px); /* Leichter Anhebeeffekt beim Hover */
+}
+
+/* Aktiver Button-Stil */
+.Aktiendashboard-Aktienkurs-container-buttons button:active {
+  background-color: #004494; /* Noch dunkleres Blau beim Klick */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Ursprünglicher Schatten beim Klick */
+  transform: translateY(0); /* Rückkehr zur normalen Position beim Klick */
+}
+
+.Modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  outline: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  max-width: 90%;
+  width: 400px;
+}
+
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  z-index: 999;
+}
+
+.openTimeline{
+  background-color: rgba(0, 0, 0, 0) !important;
+  box-shadow: none !important;
+  text-align: left;
+  padding: 5px !important;
+  text-decoration: solid;
+  font-weight: 700;
+  width: 200px !important;
+  color:#008cff !important
+}
+
+.openTimeline:hover{
+  opacity: 0.8;
+}
+
+/* Stil für das Hover-Value-Display */
+.Aktiendashboard-Aktienkurs-hover-value {
+  background-color: rgba(0, 0, 0, 0.75); /* Halbtransparenter Hintergrund */
+  color: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Datumsfelder */
+.Aktiendashboard-Aktienkurs-container-buttons input[type="date"],
+.Aktiendashboard-Aktienkurs-DateInput {
+  background-color: #333; /* Dunkler Hintergrund */
+  color: white; /* Weißer Text */
+  border: none;
+  border-radius: 10px;
+  padding: 8px;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+
+
+.Aktiendashboard-Aktienkurs-container-buttons button,
+.Aktiendashboard-Aktienkurs-Button {
+  background-color: rgba(0, 0, 0, 0.7); /* Halbtransparenter, dunkler Hintergrund */
+  border: none;
+  border-radius: 10px; /* Abgerundete Ecken */
+  color: white;
+  padding: 8px 16px; /* Erhöhte Polsterung */
+  margin: 5px 10px 5px 0px;
+  cursor: pointer;
+  font-size: 16px; /* Angemessene Schriftgröße */
+  transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Deutlicherer Schatten */
+  font-family: 'Roboto', sans-serif; /* Moderne Schriftart */
+  width: 100px;
+}
+
+
+
+/* Hover- und Focus-Stile für Buttons */
+.Aktiendashboard-Aktienkurs-container-buttons button:hover,
+.Aktiendashboard-Aktienkurs-container-buttons button:focus,
+.Aktiendashboard-Aktienkurs-Button:hover,
+.Aktiendashboard-Aktienkurs-Button:focus {
+  background-color: #0056b3; /* Dunkleres Blau beim Hover */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Stärkerer Schatten beim Hover */
+  transform: translateY(-3px); /* Leichter Anhebeeffekt beim Hover */
+}
+
+/* Aktiver Button-Stil */
+.Aktiendashboard-Aktienkurs-container-buttons button:active,
+.Aktiendashboard-Aktienkurs-Button:active {
+  background-color: #004494; /* Noch dunkleres Blau beim Klick */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Ursprünglicher Schatten beim Klick */
+  transform: translateY(0); /* Rückkehr zur normalen Position beim Klick */
+}
+
+/* Modal Date Input Style */
+.Aktiendashboard-Aktienkurs-modal-date-inputs {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.Aktiendashboard-Aktienkurs-modal-date-inputs label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.Aktiendashboard-Aktienkurs-returns {
+  display: flex;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff; /* Weißer Text für dunklen Hintergrund */
+  background-color: rgba(0, 0, 0, 0.7); /* Halbtransparenter, dunkler Hintergrund */
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.stockPriceDisplay{
+  font-size: 40px;
+  font-weight: 400;
+  margin: 0;
+}
+
+
+.stockPriceReturnContainer {
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+
+
+.yieldsReturnContainer {
+  display: flex;
+  flex-direction: column;
+  color: rgba(255, 255, 255, 0.5)
+}
+
+.yieldsReturnContainer p {
+  margin: 5px 0;
+}
+
+/* Stil für die Schaltfläche "Zeitraum auswählen" */
+.Aktiendashboard-Aktienkurs-container-buttons button {
+  background-color: rgba(0, 0, 0, 0.8); /* Halbtransparenter, dunkler Hintergrund */
+  border: none;
+  border-radius: 10px; /* Abgerundete Ecken */
+  color: white;
+  padding: 12px 20px; /* Erhöhte Polsterung */
+  cursor: pointer;
+  font-size: 16px; /* Angemessene Schriftgröße */
+  transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Deutlicherer Schatten */
+  font-family: 'Roboto', sans-serif; /* Moderne Schriftart */
+}
+
+/* Hover- und Focus-Stile für Buttons */
+.Aktiendashboard-Aktienkurs-container-buttons button:hover,
+.Aktiendashboard-Aktienkurs-container-buttons button:focus {
+  background-color: #0056b3; /* Dunkleres Blau beim Hover */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Stärkerer Schatten beim Hover */
+  transform: translateY(-3px); /* Leichter Anhebeeffekt beim Hover */
+}
+
+/* Aktiver Button-Stil */
+.Aktiendashboard-Aktienkurs-container-buttons button:active {
+  background-color: #004494; /* Noch dunkleres Blau beim Klick */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Ursprünglicher Schatten beim Klick */
+  transform: translateY(0); /* Rückkehr zur normalen Position beim Klick */
+}
+
+/* Stil für das Hover-Value-Display mit Datum */
+.Aktiendashboard-Aktienkurs-hover-value {
+  background-color: rgba(0, 0, 0, 0.75); /* Halbtransparenter Hintergrund */
+  color: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.stockPriceDisplay {
+  font-size: 40px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.stockDateDisplay {
+  font-size: 16px;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 1); /* Etwas abgesetzte Farbe */
+  margin: 5px 0 0 0;
+}
+
+.stockReturnsDisplay {
+  font-size: 14px;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.5); /* Etwas abgesetzte Farbe */
+  margin: 5px 0 0 0;
+}
+
+.stockDateRangeDisplay {
+  font-size: 14px;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.5); /* Etwas abgesetzte Farbe */
+  margin: 5px 0 0 0;
+}
+
+
+
+.selecting {
+  border: 2px solid blue;
+}
+
+.Modal {
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: auto;
+}
+
+.Overlay {
+  background-color: rgba(0, 0, 0, 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* In Aktienkurs.css */
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.close-button:hover {
+  color: rgba(0, 0, 0, 0.493);
+}
+
+.optionsButtonContainer{
+  margin-top: 10px;
+}
+
+.choseTimelineButton{
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  color: white;
+  transition: 0.4s;
+  font-weight: 500;
+}
+
+.choseTimelineButton:hover{
+  cursor: pointer;
+  opacity: 0.6;
+  transition: 0.4s;
+}
+
+.stockReturnHeadline{
+  font-size: 18px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.7); /* Etwas abgesetzte Farbe */
+  margin: 5px 0 0 0;
+}
