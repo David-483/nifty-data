@@ -7,8 +7,6 @@ WORKDIR /frontend
 # Copy React project files
 COPY ./frontend/package.json ./frontend/package-lock.json ./
 
-RUN npm install --save echarts-for-react
-
 RUN npm install
 
 # Copy the rest of the React app source code and build it
